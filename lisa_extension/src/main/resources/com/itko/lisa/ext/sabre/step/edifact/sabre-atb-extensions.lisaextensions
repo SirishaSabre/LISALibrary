@@ -1,0 +1,12 @@
+##--------------------------------------------
+## LISA Extensions - Sabre Custom Java Steps
+##--------------------------------------------
+##
+## Here's how you make LISA aware of a simple step type (aka Node).  
+## This is optional but gets the step listed in the drop-down list 
+## instead of the user having to navigate to it.
+##
+simpleNodes=com.itko.lisa.ext.sabre.step.edifact.SabreHTHHeaderStep,\
+            com.itko.lisa.ext.sabre.step.edifact.SabreRawSocketClientXMLStep,\
+            com.itko.lisa.ext.sabre.step.edifact.SabreRawSocketClientStep,\
+            com.itko.lisa.ext.sabre.step.edifact.EdifactMessageCreator
