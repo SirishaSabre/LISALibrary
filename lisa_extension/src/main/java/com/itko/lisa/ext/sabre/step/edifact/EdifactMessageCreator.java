@@ -72,6 +72,7 @@ public class EdifactMessageCreator implements CustJavaNodeInterface {
      */
     @SuppressWarnings({"rawtypes"})
     public Object executeNodeLogic(TestExec testExec, Map params) throws TestRunException {
+        log.info("EdifactMessageCreator executeNodeLogic invoked");
         StringBuffer msgBuffer = new StringBuffer();
         String message;
         try {

@@ -113,6 +113,7 @@ public class SabreHTHHeaderStepCharacterSetB implements CustJavaNodeInterface {
      * @throws TestRunException
      */
     public Object executeNodeLogic(TestExec testExec, Map params) throws TestRunException {
+        log.info("SabreHTHHeaderStepCharacterSetB executeNodeLogic invoked");
         StringBuffer headerBuffer = new StringBuffer();
         String headerString;
 
