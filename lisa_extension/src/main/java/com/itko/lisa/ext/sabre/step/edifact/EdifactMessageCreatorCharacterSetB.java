@@ -92,7 +92,7 @@ public class EdifactMessageCreatorCharacterSetB implements CustJavaNodeInterface
              *    |                     |
              *    |---------------------|
              */
-            String edi_wireMsg = edifact_payloadString.replaceAll("'\n", "'");
+            String edi_wireMsg = edifact_payloadString.replaceAll("'" + System.getProperty("line.separator"), "'");
 
             message = message + "edi_wireMsg before special characters:\n" + SabreUtils.byteArrayToHexStringFormatted(edi_wireMsg.getBytes()) + "\n\n";
 
