@@ -63,15 +63,22 @@
 			<artifactId>lisa-core</artifactId>
 			<groupId>lisa-core</groupId>
 			<scope>system</scope>
-			<version>1.0</version>
-			<systemPath>C:/Sabre/GIT-LISALibrary/ext_lib/lisa-core.jar</systemPath>
+			<version>10.1.0</version>
+			<systemPath>C:/Sabre/GIT-LISALibrary/ext_lib/lisa-core-10.1.0.jar</systemPath>
 		</dependency>
 		<dependency>
 			<artifactId>lisa-virtualize</artifactId>
 			<groupId>lisa-virtualize</groupId>
 			<scope>system</scope>
-			<version>1.0</version>
-			<systemPath>C:/Sabre/GIT-LISALibrary/ext_lib/lisa-virtualize.jar</systemPath>
+			<version>10.1.0</version>
+			<systemPath>C:/Sabre/GIT-LISALibrary/ext_lib/lisa-virtualize-10.1.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<artifactId>lisa-util</artifactId>
+			<groupId>lisa-util</groupId>
+			<scope>system</scope>
+			<version>10.1.0</version>
+			<systemPath>C:/Sabre/GIT-LISALibrary/ext_lib/lisa-util-10.1.0.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>commons-logging</groupId>
